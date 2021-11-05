@@ -10,21 +10,23 @@
 
     <title>skyeWeb</title>
   <style>
+    .container{
+      padding: 8px;
+    }
     .pad{
       padding: 8px;
     }
     .img-banner{
       width: 100%;
-      height: 300px;
       border-radius: 0 0 25% 25%;
     }
     .heading{
-      font-size: x-large;
+      font-size: xx-large;
       font-weight: bold;
       text-align: center;
     }
     .description{
-      padding: 8px;
+      /* padding: 8px; */
     }
     .w1{
       font-size: x-large;
@@ -34,36 +36,86 @@
       text-align: justify;
     }
     .overview{
-      padding: 8px;
+      /* padding: 8px; */
     }
     .subheading{
-      font-size: large;
+      font-size: x-large;
       font-weight: bold;
+    }
+    .icon{
+      height: 50px;
+      width: 50px;
+      padding: 8px;
+      margin-left: 8px;
+    }
+    .row{
+      display: flex;
+      flex-direction: row;
+     
+    }
+    .column{
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .item-card{
+      margin-left: 2px;
+     
+     width: 100%;
+      border: 1px solid grey;
+      border-radius: 10px;
+    }
+    .s-name{
+      font-size: medium;
+      font-weight: bold;
+    }
+    .s-location{
+      font-size: small;
+      color: grey;
+    }
+    .suppliers{
+      justify-content: center;
     }
   </style>
 </head>
 <body>
+  <!--*refrence https://expomx.in/*-->
+
   <img src="./bird/Cockatiel.jpg" alt="Cockatiel" class="img-banner"> 
 
-  <div class="heading">
-    Cockatiel
+  <div class="container">
+    <div class="heading">
+      Cockatiel
+    </div>
+  
+    <div class="description">
+      <p><span class="w1">A</span>s members of the parrot family, cockatiels delight their caretakers with their cheerful whistling and ability to mimic sounds. While they aren't as large as many other parrot species, cockatiels do appreciate having lots of space to play. They're also quite affectionate and need at least a few hours each day to interact with their caretakers .</p>
+    </div>
+  <div class="overview">
+    <div class="subheading">
+      Species Overview
+    </div>
+    <ul>
+      <li>
+        <b>LENGTH: </b> 12 to 13 inches
+      </li>
+      <li><b>WEIGHT: </b>3 ounces</li>
+      <li><b>PHYSICAL CHARACTERISTICS: </b>Gray body; yellow face and crest; orange cheeks; long tail; mutations include albino, lutino, pied, and cinnamon</li>
+    </ul>
   </div>
-
-  <div class="description">
-    <p><span class="w1">A</span>s members of the parrot family, cockatiels delight their caretakers with their cheerful whistling and ability to mimic sounds. While they aren't as large as many other parrot species, cockatiels do appreciate having lots of space to play. They're also quite affectionate and need at least a few hours each day to interact with their caretakers .</p>
+  
+  <div class="supplier">
+    <div class="subheading">Pet Stores</div>
+    <div class="item-card row">
+      <img src="./bird/store.png" alt="" class="icon">
+      <div class="column">
+        <div class="s-name">Pet House</div>
+      <div class="s-location">Noida Sector 62 | <b>9XXXXXXXXX5</b>
+      </div>
+      </div>
+    </div>
   </div>
-<div class="overview">
-  <div class="subheading">
-    Species Overview
   </div>
-  <ul>
-    <li>
-      <b>LENGTH: </b> 12 to 13 inches
-    </li>
-    <li><b>WEIGHT: </b>3 ounces</li>
-    <li><b>PHYSICAL CHARACTERISTICS: </b>Gray body; yellow face and crest; orange cheeks; long tail; mutations include albino, lutino, pied, and cinnamon</li>
-  </ul>
-</div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
