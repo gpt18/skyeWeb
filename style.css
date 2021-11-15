@@ -1,0 +1,66 @@
+.container{
+    padding: 8px;
+  }
+  .pad{
+    padding: 8px;
+  }
+  .img-banner{
+    width: 100%;
+    border-radius: 0 0 25% 25%;
+  }
+  .heading{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+  }
+  .description{
+    /* padding: 8px; */
+  }
+  .w1{
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .description{
+    text-align: justify;
+  }
+  .overview{
+    /* padding: 8px; */
+  }
+  .subheading{
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .icon{
+    height: 50px;
+    width: 50px;
+    padding: 8px;
+    margin-left: 8px;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+   
+  }
+  .column{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .item-card{
+    margin-left: 2px;
+   
+   width: 100%;
+    border: 1px solid grey;
+    border-radius: 10px;
+  }
+  .s-name{
+    font-size: medium;
+    font-weight: bold;
+  }
+  .s-location{
+    font-size: small;
+    color: grey;
+  }
+  .suppliers{
+    justify-content: center;
+  }
